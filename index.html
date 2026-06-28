@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Modern Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">Brand<span>Name</span></a>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle">
+            <label for="nav-toggle" class="nav-toggle-label">
+                <span></span>
+            </label>
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Design the Future of the Web</h1>
+            <p class="fade-in">We create stunning, modern, and fully responsive websites that help your business grow and stand out online.</p>
+            <a href="#contact" class="btn btn-primary fade-in">Get Started</a>
+        </div>
+    </section>
+
+    <section id="about" class="about section-padding">
+        <div class="container about-grid">
+            <div class="about-image">
+                <img src="https://via.placeholder.com/600x400" alt="About Us Teamwork">
+            </div>
+            <div class="about-text">
+                <h2>Who We Are</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto distinctio laboriosam provident culpa obcaecati sed recusandae ipsa unde. Velit ab minus magnam aspernatur iusto reiciendis harum sequi placeat, debitis qui.</p>
+                <p>Our mission is to bridge the gap between complex functionality and beautiful design, delivering seamless digital experiences.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Design</h3>
+                    <p>Crafting visually stunning websites tailored precisely to your unique brand identity.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">📱</div>
+                    <h3>Responsive Development</h3>
+                    <p>Ensuring your digital product looks flawless on absolutely any modern device screen.</p>
+                </div>
+                <div class="service-card">
+                    <div class="icon">🚀</div>
+                    <h3>SEO Optimization</h3>
+                    <p>Boosting your online search visibility to attract organic high-converting traffic.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+            <h2 class="section-title">Our Portfolio</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 1">
+                    <div class="portfolio-overlay">
+                        <h3>Project One</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 2">
+                    <div class="portfolio-overlay">
+                        <h3>Project Two</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 3">
+                    <div class="portfolio-overlay">
+                        <h3>Project Three</h3>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/400x300" alt="Project 4">
+                    <div class="portfolio-overlay">
+                        <h3>Project Four</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact section-padding bg-light">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form class="contact-form" action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+                </div>
+                <button type="submit" class="btn btn-submit">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 BrandName. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
